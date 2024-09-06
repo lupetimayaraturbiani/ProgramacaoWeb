@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.layoutSenac {
+    margin-bottom: 15px;
+}
+
+.layoutSenac label {
+    display: block; /*linha inteira*/
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: bold;
+}
+
+.layoutSenac input[type="text"],
+.layoutSenac input[type="email"],
+.layoutSenac input[type="password"],
+.layoutSenac input[type="tel"],
+.layoutSenac input[type="url"],
+.layoutSenac input[type="date"],
+.layoutSenac input[type="color"],
+.layoutSenac input[type="number"],
+.layoutSenac input[type="range"],
+.layoutSenac input[type="file"],
+.layoutSenac input[type="checkbox"],
+.layoutSenac input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.principal {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+}
+
+.layoutSenac button[type="reset"]{
+    background-color: red;
+}
+
+.layoutSenac button:hover {
+    background-color: green;
+}
+
+.layoutSenac input[type="checkbox"],
+.layoutSenac input[type="radio"] {
+    width: 100%;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.layoutSenac input[type="range"] {
+    width: 100%;
+}
+
+.layoutSenac button{
+    width: 20%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 4%;
+}
