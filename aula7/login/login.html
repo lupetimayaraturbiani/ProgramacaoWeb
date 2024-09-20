@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login do Sistema - Extensão</h2>
+        <form id="frmLogin">
+            <label for="usuario">Usuário</label>
+            <input type="text" id="txtUsuario" name="usuario" placeholder="Digite seu usuário">
+
+            <label for="senha">Senha</label>
+            <input type="password" id="txtSenha" name="senha" placeholder="Digite sua senha">
+
+            <button type="submit" id="btnEntrar" onclick="validaLogin();return false;">Entrar</button>
+        </form>
+    </div>
+    <script src="validacao.js"></script>
+</body>
+</html>
