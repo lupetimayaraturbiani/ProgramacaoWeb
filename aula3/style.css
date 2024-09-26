@@ -1,37 +1,60 @@
+/*estilo para tudo dento da tag body*/
 body{
+    /*define a fonte doo body como arial*/
     font-family: Arial, Helvetica, sans-serif;
+    /*cor de fundo da região do body*/
     background-color: #332F37;
+    /*define a margem dentro da tag como 0*/
     margin: 0;
 }
 
+/*estilo da tag header*/
 header{
+    /*alinha o texto no centro*/
     text-align: center;
+    /*adiciona uma margem inferior na tag*/
     margin-bottom: 20px;
 }
 
+/*estilo para todos os títulos e texto no site*/
 h1, h2, p{
+    /*cor do texto*/
     color: #ffff;
 }
 
+/*estilo específico para h2*/
 h2{
+    /*cor de fundo do texto*/
     background-color: #CE7B91;
+    /*margem interna*/
     padding: 20px;
 }
 
+/*estilo tag main*/
 main{
+    /*cor de fundo*/
     background-color: #332F37;
+    /*margem interior*/
     padding: 20px;
+    /*borda arredondada*/
     border-radius: 5px;
 }
 
+/*estilo cabeçalho inferior*/
 footer{
+    /*alinha o texto*/
     text-align: center;
+    /*magem superior*/
     margin-top: 20px;
+    /*tamanho da fonte*/
     font-size: 0.9em;
+    /*cor do texto*/
     color: #ffff;
 }
 
+/*estilho do texto em link*/
 a{
+    /*decoração para o texto(sublinhado, negrito e etc)*/
     text-decoration: none;
     text-align: center;
     color: #ffff;
@@ -43,33 +66,48 @@ a{
     height: 50px;
 }
 
+/*estilo para o link barra de navegação*/
 nav a{
+    /*cor do text*/
     color: #332F37;
+    /*margem interior*/
     padding: 10px 20px;
+    /*arredondamento*/
     border-radius: 5px;
+    /*cor de fundo*/
     background-color: #E5C7CF;
 }
 
+/*estilo para quando o cursor esta em cima do link*/
 nav a:hover{
+    /*cor de fundo muda*/
     background-color: #CE7B91;
 }
 
+/*estilo para quando o cursor esta em cima do link*/
 a:hover{
+    /*cor do texto muda*/
     color: #E5C7CF;
 }
 
+/*estilo div botão*/
 .btn{
     background-color: #CE7B91;
     color: #ffff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
+    /*muda o formato do cursor*/
     cursor: pointer;
+    /*faz uma "animação de transição" q muda uma propriedade de forma suave*/
     transition: background-color 0.10s ease, transform 0.3 ease;
 }
 
+/*estilo div botão quando o cursor estiver em cima*/
 .btn:hover{
+    /*muda cor de fundo*/
     background-color: #CE7B91;
+    /*muda o tamanho do botão*/
     transform: scale(1.1);
 }
 

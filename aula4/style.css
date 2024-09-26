@@ -50,6 +50,7 @@ input, textarea{
 }
 
 input:focus, textarea:focus{
+    /*quando clicar no input uma borda dessa cor vai aparecer*/
     border-color: #1C1B1B;
     outline: none;
 }
@@ -67,6 +68,7 @@ button{
 
 button:hover{
     background-color: #925B98;
+    /*muda  aposiçao quando o cursor estiver em cima*/
     transform: translateY(-8px);
 }
 
@@ -75,7 +77,9 @@ footer{
     color: #ffff;
     text-align: center;
     padding: 2px;
+    /*deixa a posição do elemento fixada*/
     position: fixed;
+    /*largura*/
     width: 100%;
     bottom: 0;
 }

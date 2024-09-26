@@ -14,8 +14,11 @@
         <p>Estamos felizes em ter você aqui!</p>
     </header>
     <main>
+        //tag de formulario
         <form>
+            //"etiqueta" do input
             <label id="lblName" for="nome" >Nome: </label>
+            //input, com tipo id e um texto que fica dentro do input enquanto ele não esta preenchido
             <input type="text" id="txtNome" name="nome" placeholder="Digite seu nome completo" required/>
 
             <label id="lblEmail" for="email">Email: </label>
@@ -27,9 +30,12 @@
             <label id="lblcpf" for="cpf">CPF: </label>
             <input type="text" id="txtCpf" name="CPF" placeholder="Digite seu CPF" required/>
 
+            //"etiqueta" para area de texto
             <label id="lblMensagem" for="mensagem">Mensagem: </label>
+            //input que tem um gande espaço para texto
             <textarea id="txtMensagem" placeholder="Digite sua mensagem" rows="8" required></textarea>
 
+            //botão
             <button id="btnEnviar">Enviar</button>
         </form>
     </main>
