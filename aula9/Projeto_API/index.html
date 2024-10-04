@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consulta API</title>
+</head>
+<body>
+    <h1>Utilizando API de CEP</h1>
+
+    <form id="frmCEP">
+        <label for="CEP">CEP:</label>
+        <input type="text" id="txtCEP" name="CEP" required maxlength="8">
+        <label for="rua">Rua:</label>
+        <input type="text" id="txtRua" name="rua" readonly>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="txtBairro" name="bairro" readonly>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="txtCidade" name="cidade" readonly>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
